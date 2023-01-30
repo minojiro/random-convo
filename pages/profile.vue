@@ -1,5 +1,5 @@
 <template>
   <div>
-    <NuxtWelcome />
+    プロフィール画面
   </div>
 </template>
