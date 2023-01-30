@@ -13,4 +13,26 @@ export default defineNuxtConfig({
       FB_MEASUREMENT_ID: process.env.FB_MEASUREMENT_ID || "",
     },
   },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: "ja",
+        prefix: "og: https://ogp.me/ns#",
+      },
+      title: "RandomConvo",
+      meta: [
+        {
+          name: "description",
+          content:
+            "ランダムマッチチャットサービスは、世界中の誰かと瞬時にチャットをすることができるサービスです。特定のトピックや興味を共有する相手を探すこともできます。匿名性を保つこともできます。友達を作ったり、新しい出会いを楽しむことができます。",
+        },
+        { property: "og:type", content: "website" },
+        { property: "og:site_name", content: "RandomConvo" },
+        {
+          property: "og:image",
+          content: "https://random-convo.vercel.app/ogp.png",
+        },
+      ],
+    },
+  },
 });
