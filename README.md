@@ -12,6 +12,14 @@ Make sure to install the dependencies:
 pnpm install
 ```
 
+### Firebase
+
+`.env.sample` をコピーして、内容を書き換えてください
+
+```bash
+cp ./.env.sample .env
+```
+
 ## Development Server
 
 Start the development server on http://localhost:3000
