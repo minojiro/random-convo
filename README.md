@@ -1,19 +1,14 @@
-# Nuxt 3 Minimal Starter
+# RandomConvo
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+ChatGPT の言うことを聞きながら作る、ランダムマッチングチャットアプリ。
+
+<img width="795" alt="スクリーンショット 2023-01-30 15 42 56" src="https://user-images.githubusercontent.com/5090244/215412678-6be9aa80-f829-4480-96dc-961779b96d32.png">
 
 ## Setup
 
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
 pnpm install
 ```
 
@@ -22,7 +17,7 @@ pnpm install
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 ## Production
@@ -30,13 +25,5 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+pnpm build
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
