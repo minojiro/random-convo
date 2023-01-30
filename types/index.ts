@@ -12,3 +12,14 @@ export type MessageData = {
   userId: string;
   createdAt: FieldValue;
 };
+
+export type WaitingUser = {
+  userId: string;
+  roomId: string;
+};
+
+export type WaitingUserData = {
+  userId: string;
+  roomId: string;
+  createdAt: FieldValue;
+};
